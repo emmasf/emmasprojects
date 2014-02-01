@@ -1,4 +1,4 @@
-emmasprojects
+Learning Things
 =============
 
 Hello, Reader.
