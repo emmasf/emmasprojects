@@ -15,15 +15,6 @@ $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !def
 $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
-// Navbar brand label
-$navbar-default-brand-color:               $spot-color;
-$navbar-default-brand-hover-color:         darken($spot-color, 6.5%);
-$navbar-default-brand-hover-bg:            transparent !default;
-
-// Navbar toggle
-$navbar-default-toggle-hover-bg:           #ddd !default;
-$navbar-default-toggle-icon-bar-bg:        #888 !default;
-$navbar-default-toggle-border-color:       #ddd !default;
 
 $btn-default-color:              $link-color-reverse;
 $btn-default-bg:                 $link-color;
@@ -31,3 +22,7 @@ $btn-default-border:             $navbar-default-bg;
 
 $input-group-addon-bg:           #ccc;
 $input-group-addon-border-color: darken($input-group-addon-bg, 6.5%);
+
+$light-grey-accent: #ccc;
+
+
