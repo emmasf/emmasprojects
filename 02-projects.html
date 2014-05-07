@@ -1,0 +1,26 @@
+---
+layout: main-sidebar
+title: Projects Main Page
+name: Projects
+permalink: projects.html
+---
+
+<section class="list postlist col-sm-8 blog-main">
+  <h1>Class Projects</h1>
+  
+  {% for post in site.posts %}
+  {% if post.categories contains "main-project" %}
+    <article class="post-link">
+      <div class="blog-header">
+        <time>{{ post.time }}</time>
+        <h2>
+          <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.copy }}</p>
+      </div>
+    </article>
+  {% endif %}
+{% endfor %}
+
+  
+</section>

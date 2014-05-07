@@ -1,0 +1,33 @@
+---
+layout: main-sidebar
+title: Favorites
+name: Favorite Things on the Internet
+permalink: favorites.html
+---
+
+<section class="list postlist col-sm-8 blog-main">
+  <h1>Favorites</h1>
+  
+{% for post in site.posts %}
+  {% if post.categories contains "favorites" %}
+    <article class="post-link">
+      <div class="blog-header">
+        <time>{{ post.date | date_to_string }}</time>
+        <h2>
+          <a href="{{ post.sitesrc }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
+        </h2>
+        </div>
+      <div class="post-content">
+        <p>{{ post.copy }}</p>
+        <!-- <img src="{{ site.baseurl }}/img/{{ post.imgsrc }}"> -->
+        <img src="{{ site.baseurl }}/img/{{ post.imgsrc }}">
+      </div>
+    </article>
+  {% endif %}
+{% endfor %}
+   
+</section>
+
+
+
+
