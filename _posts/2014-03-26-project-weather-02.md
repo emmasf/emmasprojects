@@ -1,6 +1,6 @@
 ---
 layout: progress-post
-title: "Enoch Pratt: Interviews"
+title: "Weather App: Research"
 date: 2014-03-26
 categories:
 - projects
