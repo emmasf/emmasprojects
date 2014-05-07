@@ -9,4 +9,4 @@ project: weather-api
 This is a summary of the project.
 
 This is a pdf reader, I hope:
-![pdf file](../../img/ESF_EnochPratt_Documentation.pdf)
+![pdf file]({{ site.url }}/img/ESF_EnochPratt_Documentation.pdf)
