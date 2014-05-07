@@ -2012,7 +2012,7 @@ time { padding-top: 13px; float: right; color: #cccccc; }
 .blog-header { min-height: 50px; clear: both; }
 .blog-header h3 { margin-top: 5px; padding: 0 0 15px 0; }
 
-h1 { font-size: 60px; line-height: 1.2em; }
+h1 { font-size: 60px; line-height: 1.2em; margin-bottom: 10px; }
 
 .home h1 { font-size: 82px; }
 
