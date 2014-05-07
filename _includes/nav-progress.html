@@ -1,17 +1,24 @@
 <div class="col-sm-3 col-sm-offset-1 sidebar">
   <div class="sidebar-module sidebar-module-inset">
-    <ul>
-      <li>
-        <a href="{{ site.baseurl }}/projects/enoch-pratt">Enoch Pratt (Designing in Code)</a>
+<h4>Process Posts for this Project</h4>
+  
+  
+  {% for post in site.categories.[page.projects] %} 
+  
+    {% if forloop.first %}
+    
+    <ul class="postlist">
+    {% endif %}
+    
+      <li class="post">
+        <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
       </li>
-      <li>
-        <a href="{{ site.baseurl }}/projects/weather-api">SF Microclimates (Using APIs)</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/projects/meta">This Very Website (Jekyll) </a>
-      </li>
-    </ul>
+    
+    {% if forloop.last %}
+      </ul>
+    {% endif %}
+
+  {% endfor %}
+  
   </div>
 </div>
-
-
