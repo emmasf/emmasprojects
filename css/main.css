@@ -2151,7 +2151,7 @@ textarea { resize: vertical; }
   h2, h3 { page-break-after: avoid; } }
 /***** End HTML5 Boilerplate Styles *****/
 /*****************MEEEEE*************************************************************/
-body { padding-bottom: 100px; }
+body { padding-bottom: 100px !important; }
 
 img { width: 100%; margin: 10px 0; }
 
