@@ -2181,4 +2181,4 @@ h4 { text-transform: uppercase; }
 
 div.clear { clear: both; }
 
-section.blog-main { margin-bottom: 100px !important; background-color: aqua; }
+section.blog-main { padding-bottom: 100px !important; }
