@@ -1993,7 +1993,7 @@ textarea { resize: vertical; }
   h2, h3 { page-break-after: avoid; } }
 /***** End HTML5 Boilerplate Styles *****/
 /*****************MEEEEE*************************************************************/
-img { width: 100%; margin: 10px 0; }
+img { width: 100%; margin: 10px 0 30px 0; }
 
 .nav { margin: 60px 0 45px 0; }
 
@@ -2002,7 +2002,7 @@ img { width: 100%; margin: 10px 0; }
 
 .col-sm-5 { padding: 0; margin: 0; margin-top: 15px; }
 
-article.post-link { padding: 20px 0; margin-top: 30px; border-top: 3px solid #cccccc; min-height: 40px; }
+article.post-link { padding-top: 20px; margin-top: 30px; border-top: 3px solid #cccccc; min-height: 30px; }
 article.post-link img { width: 100%; margin: 10px 0; }
 article.post-link p { clear: both; }
 

@@ -7,11 +7,7 @@ categories:
 - enoch-pratt
 ---
 
-#Enoch Pratt: Structure and Wireframes
+#Enoch Pratt: Interviews
 
-This week, I did some planning and analysis for the Enoch Pratt Library website.
-
-I like to draw wireframes by hand using tracing paper, both for ease of thinking and to make sure no one gets confused about visual design. No mater how simple the computer sketch, I find that people start thinking about the hierarchy, the weight of things on the page, and how things move as much as they do the content and functionality.
- 
-![Wireframes gif]({{ site.baseurl }}/img/class02.gif)
+This week, I interviewed friends and families about their reading habits. The most interesting thing I found was a whole lot of wistful 30-somethings, mourning for their college days spent in the library. Many of these people were still avid readers, and I decided to include a spotlight on events that would pull them back in to their local branches.
 
