@@ -8,7 +8,7 @@ project: weather-api
 
 This is a summary of the project.
 
-![pdf file]({{ site.baseurl }}/img/ESF_EnochPratt_Documentation.pdf)
+![pdf file]( {{ site.baseurl }}/img/ESF_EnochPratt_Documentation.pdf )
 
 Check out our various working pieces:
 
