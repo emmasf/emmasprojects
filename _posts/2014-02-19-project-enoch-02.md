@@ -1,7 +1,7 @@
 ---
 layout: progress-post
-title: "Enoch Pratt 1st Post"
-date: 2014-01-02
+title: "Enoch Pratt: Interviews"
+date: 2014-02-19
 categories:
 - projects
 - enoch-pratt
