@@ -11,3 +11,4 @@ categories:
 #I Mustache You a Question
 
 Holy shit, I figured something out!
+![01]({{ site.baseurl }}/img/mustache.png)
