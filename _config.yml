@@ -2,6 +2,6 @@
 # site: emmasf.github.io
 # baseurl: emmasf.github.io/jekyllparty
 
-baseurl: /jekyllparty
+baseurl: /learningthings
 markdown: kramdown
 
