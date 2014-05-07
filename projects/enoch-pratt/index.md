@@ -9,4 +9,4 @@ project: enoch-pratt
 This is a summary of the project.
 
 This is a pdf reader, I hope:
-![pdf file](../)
+![pdf file]({{ site.baseurl }}/img/ESF_EnochPratt_Documentation.pdf)
